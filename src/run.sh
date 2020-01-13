@@ -9,7 +9,7 @@ else
 fi
 echo "virtaul env activated"
 
-FLASK_APP=flaskapp
-FLASK_ENV=development
+export FLASK_APP=flaskapp
+export FLASK_ENV=development
 
 flask run
